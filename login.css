@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url('flowers-green-field-snowy-mountains-scenery-4k-wallpaper-uhdpaper.com-168@2@a.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Roboto','Condensed';
+    
+}
+.container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.027);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    margin-top: 12rem;
+    border: 2px solid rgba(255, 255, 255, .2);
+
+}
+.container .name {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.5);
+    opacity: 0.5;
+    transition: all 0.3s ease;
+
+}
+.name:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    opacity: 1;
+}
+.container .name2 {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.5);
+    opacity: 0.5;
+    transition: all 0.3s ease;
+
+}
+.name2:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    opacity: 1;
+}
+h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lgn{
+    width: 30%;
+    height: 45px;
+    border: none;
+    border-radius: 40px;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    color: rgb(98, 173, 68);
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: all 0.3s ease;    
+}
+.lgn:hover{
+    background-color: rgba(53, 183, 235, 0.952);
+    color: rgb(255, 255, 255);
+    transform: scale(1.05);
+}
